@@ -29,4 +29,6 @@ Temperature & humidity sensor:
 
 ## WEEK 10  
 
-Housing
+MAP:  
+
+Housing:  
