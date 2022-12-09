@@ -17,10 +17,10 @@ I started to get the required sensors and get familiar with them.
 According to feedback, I plan to focus on Arduino hardware part instead of image processing. I will use a colour sensor to take inputs from environment, instead of a camera which take images. 
 
 Colour sensor TSC3200:  
-**(NOT ACCURATE)**
+**(NOT ACCURATE)**  ![Image text](https://github.com/RebeccaSY/CCI-Physical-Computing-Project/blob/main/pictures/colorsensor-1.jpg)  
 
 Ultrasonic sensor (get the distance):  OK  
-
+![Image text](https://github.com/RebeccaSY/CCI-Physical-Computing-Project/blob/main/pictures/ultrasonic-1.jpg)
 
 RGB LED common cathode (single):  OK  
 
@@ -32,10 +32,14 @@ I want to build a geometry of a bird's shape, with LEDs attached on it. LED The 
 **PROBLEM:**  
 **The shape of the geometry is complex when building with paper, when some movements are required.**  
   
-RGB LED (soldered in parallel):  OK
+RGB LED (soldered in parallel):  OK  
+![Image text](https://github.com/RebeccaSY/CCI-Physical-Computing-Project/blob/main/pictures/LEDtwo-1.jpg)  
+![Image text](https://github.com/RebeccaSY/CCI-Physical-Computing-Project/blob/main/pictures/LEDtwo-2.jpg)  
   
 Temperature & humidity sensor:  
-The reading of DHT11 temperature & humidity sensor is only in whole numbers, and changes very slowly with the change of environment. **(NOT IDEAL)**
+The reading of DHT11 temperature & humidity sensor is only in whole numbers, and changes very slowly with the change of environment. **(NOT IDEAL)**  
+![Image text](https://github.com/RebeccaSY/CCI-Physical-Computing-Project/blob/main/pictures/dht11-1.png)  
+![Image text](https://github.com/RebeccaSY/CCI-Physical-Computing-Project/blob/main/pictures/dht11.png)  
   
 **Next step:**  
 Three inputs are needed to control one LED's colour, how to control many LEDs to have different colours?  
@@ -46,9 +50,13 @@ Shift register 74HC595N is used to control 8 output pins with 3 input pins. I co
   
 Refer to this tutorial https://www.youtube.com/watch?v=hqVpxCPFaQk :+1:  
 
-Temperature sensor (another):  OK
+![Image text](https://github.com/RebeccaSY/CCI-Physical-Computing-Project/blob/main/pictures/LED-multi.png)  
+  
+Temperature sensor (another):  OK  
+![Image text](https://github.com/RebeccaSY/CCI-Physical-Computing-Project/blob/main/pictures/mcp9808.png)  
 
 Servo MG995:  OK but sometimes not rotating smoothly.  
+![Image text](https://github.com/RebeccaSY/CCI-Physical-Computing-Project/blob/main/pictures/servo-1.jpg)  
 
   
 **PROBLEM:**  
@@ -64,5 +72,10 @@ Connecting all the inputs and outputs together:
 The reason may be that they each use a timer.  I then looked at the readme file of two libraries. I should changed to other output pins cause some were disabled.  
 
 Soldering & Housing  
+![Image text](https://github.com/RebeccaSY/CCI-Physical-Computing-Project/blob/main/pictures/solder.png)  
+![Image text](https://github.com/RebeccaSY/CCI-Physical-Computing-Project/blob/main/pictures/map-1.jpg)    
+![Image text](https://github.com/RebeccaSY/CCI-Physical-Computing-Project/blob/main/pictures/map-2.jpg)    
+![Image text](https://github.com/RebeccaSY/CCI-Physical-Computing-Project/blob/main/pictures/map-3.jpg)  
+![Image text](https://github.com/RebeccaSY/CCI-Physical-Computing-Project/blob/main/pictures/combine.jpg)  
   
   VIDEO  
