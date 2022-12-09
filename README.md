@@ -19,10 +19,10 @@ According to feedback, I plan to focus on Arduino hardware part instead of image
 Colour sensor TSC3200:  
 **(NOT ACCURATE)**
 
-Ultrasonic sensor (get the distance):  
+Ultrasonic sensor (get the distance):  OK  
 
 
-RGB LED common cathode (single):  
+RGB LED common cathode (single):  OK  
 
 
 ## WEEK 08  
@@ -32,7 +32,7 @@ I want to build a geometry of a bird's shape, with LEDs attached on it. LED The 
 **PROBLEM:**  
 **The shape of the geometry is complex when building with paper, when some movements are required.**  
   
-RGB LED (soldered in parallel):  
+RGB LED (soldered in parallel):  OK
   
 Temperature & humidity sensor:  
 The reading of DHT11 temperature & humidity sensor is only in whole numbers, and changes very slowly with the change of environment. **(NOT IDEAL)**
@@ -41,14 +41,14 @@ The reading of DHT11 temperature & humidity sensor is only in whole numbers, and
 Three inputs are needed to control one LED's colour, how to control many LEDs to have different colours?  
 
 ## WEEK 09  
-RGB LED (multiple with different colors):  
+RGB LED (multiple with different colors):  OK
 Shift register 74HC595N is used to control 8 output pins with 3 input pins. I connected 3 shift registers in parallel, 3 x 8 = 24 output pins can be used to control the colours of 24 / 3 = 8 LEDs, with only 3 output pins on Arduino board used. 
   
 Refer to this tutorial https://www.youtube.com/watch?v=hqVpxCPFaQk :+1:  
 
-Temperature sensor (another):  
+Temperature sensor (another):  OK
 
-Servo MG995:  
+Servo MG995:  OK but sometimes not rotating smoothly.  
 
   
 **PROBLEM:**  
@@ -61,8 +61,8 @@ Connecting all the inputs and outputs together:
   
 **PROBLEM**  
 **There is conflict between ShiftPWM library and Servo library. They can't run in the same program.**  
-The reason may be that they each use a timer.  
+The reason may be that they each use a timer.  I then looked at the readme file of two libraries. I should changed to other output pins cause some were disabled.  
 
-MAP:  
-
-Housing:  
+Soldering & Housing  
+  
+  VIDEO  
