@@ -70,6 +70,7 @@ Connecting all the inputs and outputs together:
 **PROBLEM**  
 **There is conflict between ShiftPWM library and Servo library. They can't run in the same program.**  
 The reason may be that they each use a timer.  I then looked at the readme file of two libraries. I should changed to other output pins cause some were disabled.  
+**I decided to focus on technology, and didn't end up with building an accurate world map** I used the map as a cover with colours mixed inside.  
 
 Soldering & Housing  
 ![Image text](https://github.com/RebeccaSY/CCI-Physical-Computing-Project/blob/main/pictures/solder.png)  
@@ -78,4 +79,6 @@ Soldering & Housing
 ![Image text](https://github.com/RebeccaSY/CCI-Physical-Computing-Project/blob/main/pictures/map-3.jpg)  
 ![Image text](https://github.com/RebeccaSY/CCI-Physical-Computing-Project/blob/main/pictures/combine.jpg)  
   
-  VIDEO  
+  VIDEO  https://youtu.be/9fyXw67YxEo
+  
+  
